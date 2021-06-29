@@ -36,6 +36,12 @@ const ProjectsGallery = () => {
       githubUrl: "https://github.com/imsajeel/bootcamp-shoes-shop",
     },
     {
+      title: "Covid Tracker",
+      imageUrl: "images/projects/covid-tracker.png",
+      webUrl: "https://bootcamp-sajeel-covid-tracker.surge.sh/",
+      githubUrl: "https://github.com/imsajeel/covid19-tracker-bootcamp",
+    },
+    {
       title: "Web Animation",
       imageUrl: "images/projects/web-animation.png",
       webUrl: "http://bootcamp-sajeel-project-4a.surge.sh/",
