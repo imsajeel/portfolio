@@ -9,6 +9,7 @@ const Skills = () => {
   let SkillsData: SkillsDataType[] = [
     { title: "React JS", imageUrl: "images/react.png" },
     { title: "Node JS", imageUrl: "images/nodejs.png" },
+    { title: "Typescript", imageUrl: "images/typescript.png" },
     { title: "Graphql", imageUrl: "images/graphql.png" },
     { title: "Firebase", imageUrl: "images/firebase.png" },
     { title: "MongoDB", imageUrl: "images/mongodb.png" },
