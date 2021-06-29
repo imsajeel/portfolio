@@ -12,32 +12,34 @@ interface ProjectsDataType {
 const ProjectsGallery = () => {
   let ProjectsData: ProjectsDataType[] = [
     {
-      title: "SpaceX with graphql, PWA and typescript",
+      title: "SpaceX (Graphql - PWA - Typescript)",
       imageUrl: "images/projects/space-x.png",
       webUrl: "https://spacex-sajeel.surge.sh/",
       githubUrl: "https://github.com/imsajeel/spacex-react",
     },
     {
-      title: "London",
-      imageUrl:
-        "https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz",
-      webUrl: "https://gov.uk",
-      githubUrl: "https://github.com/imsajeel",
+      title: "Quiz App (PWA - Typescript)",
+      imageUrl: "images/projects/quiz.png",
+      webUrl: "http://quiz-ts-sajeel.surge.sh",
+      githubUrl: "https://github.com/imsajeel/quiz-ts",
     },
     {
-      title: "London",
-      imageUrl:
-        "https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz",
-      webUrl: "https://gov.uk",
-      githubUrl: "https://github.com/imsajeel",
-      serverUrl: "https://github.com/imsajeel/imsajeel",
+      title: "Landing Page",
+      imageUrl: "images/projects/landing-page.png",
+      webUrl: "http://bootcamp-project-4b-sajeel.surge.sh/",
+      githubUrl: "https://github.com/imsajeel/bootcamp-project-4a",
     },
     {
-      title: "London",
-      imageUrl:
-        "https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz",
-      webUrl: "https://gov.uk",
-      githubUrl: "https://github.com/imsajeel",
+      title: "Shoe Shop",
+      imageUrl: "images/projects/shoe-shop.png",
+      webUrl: "http://bootcamp-sajeel-shoes-shop.surge.sh/",
+      githubUrl: "https://github.com/imsajeel/bootcamp-shoes-shop",
+    },
+    {
+      title: "Web Animation",
+      imageUrl: "images/projects/web-animation.png",
+      webUrl: "http://bootcamp-sajeel-project-4a.surge.sh/",
+      githubUrl: "https://github.com/imsajeel/bootcamp-project-4a",
     },
   ];
 

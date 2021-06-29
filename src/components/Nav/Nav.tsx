@@ -8,8 +8,7 @@ const Nav = () => {
       style={{
         padding: "20px 40px",
         fontSize: "1.4rem",
-        // maxWidth: "1000px",
-        // backgroundColor: "rgba(0,0,0,0.2)",
+
         justifyContent: "space-between",
       }}
     >
