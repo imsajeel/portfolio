@@ -71,6 +71,7 @@ const ProjectCards = ({ data }: { data: ProjectsDataType[] }) => {
             style={{ width: "100%", maxWidth: "500px", margin: "20px 0px" }}
             src={item.imageUrl}
             alt={item.title}
+            onClick={() => window.open(item.webUrl, "_blank")}
           />
           <div style={{ fontSize: "2rem" }}>
             <FaGithub

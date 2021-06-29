@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import About from "./components/About/About";
+import Contacts from "./components/Contacts/Contacts";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
 import ProjectsGallery from "./components/ProjectsGallery/ProjectsGallery";
@@ -12,6 +14,8 @@ function App() {
       <Home />
       <Skills />
       <ProjectsGallery />
+      <About />
+      <Contacts />
     </div>
   );
 }
