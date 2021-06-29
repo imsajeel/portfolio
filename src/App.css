@@ -114,13 +114,11 @@ a {
     flex-direction: column;
     box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.22);
     border-radius: 10px;
-    /* border: 1px solid rgb(179, 179, 179); */
     position: fixed;
     top: 60px;
     right: 60px;
     padding: 20px;
-    visibility: hidden;
-    transition: visibility 0s, opacity 0.5s linear;
+    display: none;
   }
 
   .nav-top {

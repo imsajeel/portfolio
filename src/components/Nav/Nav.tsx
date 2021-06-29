@@ -27,8 +27,8 @@ const Nav = () => {
         {SideMenu ? <AiOutlineClose /> : <FiMenu />}
       </div>
       <div
-        className={`flex-centered sideMenuNav`}
-        style={{ visibility: SideMenu ? "visible" : "hidden" }}
+        className={`flex-centered ${SideMenu ? "sideMenuNav" : ""}`}
+        style={{ display: SideMenu ? "flex" : "none" }}
       >
         <nav className="nav-top" style={{ flexWrap: "wrap" }}>
           <li onClick={hideSideMenu}>
