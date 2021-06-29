@@ -7,8 +7,8 @@ const Contacts = () => {
       className="flex-centered"
       style={{
         flexDirection: "column",
-        height: "50vh",
-        marginTop: "5rem",
+        height: "95vh",
+        // marginTop: "5rem",
         paddingBottom: "20px",
       }}
     >
@@ -43,7 +43,7 @@ const Contacts = () => {
           onClick={() => window.open("https://github.com/imsajeel", "_blank")}
         />
       </div>
-      <p style={{ marginTop: "1px", marginBottom: "70px" }}>
+      <p style={{ marginTop: "1px" }}>
         Get in touch with me on
         <br />
         LinkedIn, Github

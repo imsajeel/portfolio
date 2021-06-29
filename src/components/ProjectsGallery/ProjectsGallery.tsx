@@ -12,11 +12,10 @@ interface ProjectsDataType {
 const ProjectsGallery = () => {
   let ProjectsData: ProjectsDataType[] = [
     {
-      title: "London",
-      imageUrl:
-        "https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz",
-      webUrl: "https://gov.uk",
-      githubUrl: "https://github.com/imsajeel",
+      title: "SpaceX with graphql, PWA and typescript",
+      imageUrl: "images/projects/space-x.png",
+      webUrl: "https://spacex-sajeel.surge.sh/",
+      githubUrl: "https://github.com/imsajeel/spacex-react",
     },
     {
       title: "London",
