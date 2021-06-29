@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Nav = () => {
   return (
@@ -17,11 +18,23 @@ const Nav = () => {
       </div>
       <div className="flex-centered">
         <nav className="nav-top">
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
+          <li>
+            <AnchorLink href="#about">About</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink href="#skills">Skills</AnchorLink>
+          </li>
+          <li>
+            <AnchorLink href="#project-gallery">Projects</AnchorLink>
+          </li>
         </nav>
-        <button className="lg" style={{ marginLeft: "30px" }}>
+        <button
+          className="lg"
+          style={{ marginLeft: "30px" }}
+          onClick={() =>
+            window.open("https://linkedin.com/in/imsajeel", "_blank")
+          }
+        >
           Hire me!
         </button>
       </div>

@@ -78,3 +78,8 @@ nav.nav-top {
 .buttonIcons:hover {
   color: var(--main-bg-color);
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

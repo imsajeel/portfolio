@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
 import Home from "./components/Home/Home";
@@ -11,11 +12,21 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Home />
-      <Skills />
-      <ProjectsGallery />
-      <About />
-      <Contacts />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="project-gallery">
+        <ProjectsGallery />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="contacts">
+        <Contacts />
+      </section>
     </div>
   );
 }

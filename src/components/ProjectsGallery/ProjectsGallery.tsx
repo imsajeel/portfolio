@@ -1,11 +1,12 @@
 import React from "react";
-import { FaGithub, FaLaptop } from "react-icons/fa";
+import { FaGithub, FaLaptop, FaServer } from "react-icons/fa";
 
 interface ProjectsDataType {
   title: any;
   imageUrl: any;
   webUrl: any;
   githubUrl: any;
+  serverUrl?: any;
 }
 
 const ProjectsGallery = () => {
@@ -30,6 +31,7 @@ const ProjectsGallery = () => {
         "https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz",
       webUrl: "https://gov.uk",
       githubUrl: "https://github.com/imsajeel",
+      serverUrl: "https://github.com/imsajeel/imsajeel",
     },
     {
       title: "London",
@@ -85,6 +87,16 @@ const ProjectCards = ({ data }: { data: ProjectsDataType[] }) => {
               onClick={() => window.open(item.webUrl, "_blank")}
               className="buttonIcons"
             />
+            {item.serverUrl && (
+              <>
+                &nbsp; &nbsp; &nbsp;
+                <FaServer
+                  title="Server Github"
+                  onClick={() => window.open(item.serverUrl, "_blank")}
+                  className="buttonIcons"
+                />
+              </>
+            )}
           </div>
         </div>
       ))}
