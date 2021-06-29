@@ -7,6 +7,7 @@ const Home = () => {
       style={{
         flexDirection: "column",
         height: "calc(100vh - 100px)",
+        padding: "10px",
       }}
     >
       <div className="color-a" style={{ fontSize: "1.3rem" }}>

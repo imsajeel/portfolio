@@ -1,5 +1,7 @@
 :root {
   --main-bg-color: rgb(82, 51, 192);
+  --main-bg-color-light: rgb(95, 61, 218);
+  --main-bg-color-dark: rgb(68, 38, 175);
   /* --main-bg-color: green; */
 }
 
@@ -82,4 +84,46 @@ nav.nav-top {
 a {
   color: inherit;
   text-decoration: inherit;
+}
+
+.sideMenuButtons {
+  display: none;
+  z-index: 2000;
+  background-color: var(--main-bg-color);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+}
+
+.sideMenuButtons:hover {
+  background-color: var(--main-bg-color-light);
+}
+.sideMenuButtons:active {
+  background-color: var(--main-bg-color-dark);
+}
+
+@media only screen and (max-width: 750px) {
+  .sideMenuButtons {
+    display: flex;
+  }
+
+  .sideMenuNav {
+    background-color: white;
+    flex-direction: column;
+    box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    /* border: 1px solid rgb(179, 179, 179); */
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    padding: 20px;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+
+  .nav-top {
+    flex-direction: column;
+  }
 }

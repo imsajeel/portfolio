@@ -4,7 +4,12 @@ const About = () => {
   return (
     <div
       className="bg-color-a flex-centered"
-      style={{ color: "white", flexDirection: "column", paddingBottom: "20px" }}
+      style={{
+        color: "white",
+        flexDirection: "column",
+        padding: "10px",
+        paddingBottom: "20px",
+      }}
     >
       <h1>ABOUT ME</h1>
       <p style={{ maxWidth: "500px", marginTop: "1px" }}>

@@ -27,13 +27,15 @@ const Skills = () => {
 
 const SkillImages = ({ data }: { data: SkillsDataType[] }) => {
   return (
-    <div className="flex-centered" style={{ justifyContent: "space-around" }}>
+    <div
+      className="flex-centered"
+      style={{ justifyContent: "space-around", flexWrap: "wrap" }}
+    >
       {data.map((item) => (
         <div
           className="flex-centered"
           style={{
             margin: "5px 10px",
-            flexWrap: "wrap",
             flexDirection: "column",
           }}
         >
