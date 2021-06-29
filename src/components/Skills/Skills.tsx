@@ -18,6 +18,7 @@ const Skills = () => {
   return (
     <div style={{ margin: "20px 5px 50px 5px" }}>
       <h1 className="title">Skills</h1>
+      <p>I work with tech such as</p>
       <SkillImages data={SkillsData} />
     </div>
   );

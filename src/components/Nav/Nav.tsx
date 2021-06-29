@@ -28,15 +28,11 @@ const Nav = () => {
             <AnchorLink href="#project-gallery">Projects</AnchorLink>
           </li>
         </nav>
-        <button
-          className="lg"
-          style={{ marginLeft: "30px" }}
-          onClick={() =>
-            window.open("https://linkedin.com/in/imsajeel", "_blank")
-          }
-        >
-          Hire me!
-        </button>
+        <AnchorLink href="#contacts">
+          <button className="lg" style={{ marginLeft: "30px" }}>
+            Hire me!
+          </button>
+        </AnchorLink>
       </div>
     </div>
   );
