@@ -11,6 +11,12 @@ interface ProjectsDataType {
 
 const ProjectsGallery = () => {
   let ProjectsData: ProjectsDataType[] = [
+        {
+      title: "Lahori Karahi Manchester",
+      imageUrl: "images/projects/lahori.jpg",
+      webUrl: "https://www.lahorimanchester.co.uk",
+      githubUrl: "https://github.com/imsajeel/lahori-karahi",
+    },
     {
       title: "Uncle M's Sandwich Bar (React)",
       imageUrl: "images/projects/uncleeee.jpg",
