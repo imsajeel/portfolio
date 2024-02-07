@@ -13,7 +13,7 @@ const ProjectsGallery = () => {
   let ProjectsData: ProjectsDataType[] = [
         {
       title: "Lahori Karahi Manchester",
-      imageUrl: "images/projects/lahori.jpg",
+      imageUrl: "images/projects/lahori.jpeg",
       webUrl: "https://www.lahorimanchester.co.uk",
       githubUrl: "https://github.com/imsajeel/lahori-karahi",
     },
