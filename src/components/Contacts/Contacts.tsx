@@ -25,7 +25,7 @@ const Contacts = () => {
           window.open("https://linkedin.com/in/imsajeel", "_blank")
         }
       >
-        Send Message
+        Send a Message
       </button>
       <br />
       <div style={{ margin: "20px" }}>
